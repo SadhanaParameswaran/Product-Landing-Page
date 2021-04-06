@@ -1,0 +1,140 @@
+body {
+  background: linear-gradient(35deg, #FFCCCC, #ffffff);
+  font-family: 'Francois One', sans-serif;
+  color: rgb(51,51,51);
+}
+
+ul {
+    width: 100vw;
+    text-align: justify;
+    
+}   
+@media (max-width: 650px) {
+   #ul{
+     flex-direction: column;
+   }
+}
+
+#header {
+  background: linear-gradient(45deg, #29e9d1, #ffffff);
+  position: fixed;
+  font-style: italic;
+  top: 0;
+  width: 100%;
+  min-height: 77px;
+  padding: 0px 23px;
+  margin-left: -40px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  @media (max-width: 568px) {
+      flex-wrap: wrap;
+  }
+}
+#header-img {
+  padding: 11px;
+  width:100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 27px;
+  @media (max-width: 568px) {
+    position: relative;
+  }
+}
+h1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#nav-bar {
+  padding: 45px 0px;
+  position: fixed;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  @media (max-width: 568px) {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+button{
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  border: 3px solid rgb(51,51,51);
+  border-radius: 9px;
+  @media (max-width: 568px) {
+    flex-direction: column;
+  }
+}
+.nav-link {
+  margin: 2px;
+  padding: 11px;
+  font-size: 15px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 127px;
+  margin-bottom: 25px;
+  p {
+    font-size: 19px;
+  }
+  #email {
+    display: flex;
+  }
+  #submit {
+    margin: 13px;
+    padding: 5px;
+  }
+  @media (max-width: 568px) {
+    margin-top: 320px;
+  }
+}
+img{
+  width: 20%;
+  text-align: center;
+  height: 100px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Instruments{
+  padding: 80px 0px;
+  text-align: left;
+}
+#How_does_it_Work_?{
+  padding: -40px 0px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+    iframe {
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+    }
+}
+#Pricing{
+  padding: 120px 0px;
+}
